@@ -42,3 +42,6 @@ work/
 
 # Git backup
 .git_backup/
+
+# Claude Code local instructions
+CLAUDE.md
