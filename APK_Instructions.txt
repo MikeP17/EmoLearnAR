@@ -1,0 +1,22 @@
+EmoLearnAR APK Testing Instructions
+
+The submitted APK contains the Android Flutter application only.
+The real-time emotion recognition function requires the Python Flask backend
+to be running separately on a computer.
+
+Backend startup command:
+
+cd backend
+python app.py
+
+Important notes:
+
+1. The Android device and the backend computer must be connected to the same
+   network.
+2. The Flask backend must be running before testing real-time emotion detection.
+3. If the backend is not running or the network is not reachable, the app may
+   show "Backend disconnected".
+4. The app record video demonstrates the complete system workflow, including
+   camera monitoring, AR-style emotion overlay, dashboard, session summary, and
+   Excel report export.
+

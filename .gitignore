@@ -1,0 +1,44 @@
+# Flutter generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Android generated and local files
+android/.gradle/
+android/.kotlin/
+android/local.properties
+
+# IDE files
+*.iml
+.idea/
+.vscode/
+
+# Python virtual environments and cache
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+*.err.log
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Presentation materials and temporary working files
+outputs/
+presentation_assets/
+presentation_inputs/
+work/
+
+# Git backup
+.git_backup/

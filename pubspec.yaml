@@ -1,0 +1,28 @@
+name: emolearnar
+description: Android AR emotion recognition system for classroom engagement monitoring.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0+2
+  cupertino_icons: ^1.0.8
+  excel: ^4.0.6
+  fl_chart: ^0.69.0
+  http: ^1.2.2
+  path: ^1.9.0
+  provider: ^6.1.2
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi_web: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
